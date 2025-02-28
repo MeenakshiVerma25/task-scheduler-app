@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Scheduler</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Scheduler with Deadlines</h1>
+        <form method="POST">
+            <label for="tasks">Enter tasks (ID, Deadline, Profit) one per line:</label>
+            <textarea id="tasks" name="tasks" rows="5" placeholder="Example:&#10;1,4,20&#10;2,1,10&#10;3,1,40&#10;4,1,30"></textarea>
+
+            <label for="max_deadline">Enter maximum deadline:</label>
+            <input type="number" id="max_deadline" name="max_deadline" min="1" required>
+
+            <button type="submit">Schedule Tasks</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,1 +1,6 @@
-flask\nstreamlit\npandas\nnumpy\nopencv-python\nmtcnn
+flask==2.2.5
+streamlit==1.30.0
+pandas==2.2.0
+numpy==1.24.4
+opencv-python==4.9.0.80
+mtcnn==0.1.1

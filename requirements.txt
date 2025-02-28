@@ -1,1 +1,1 @@
-streamlit\npandas\nnumpy\nopencv-python\nmtcnn\nflask
+flask\nstreamlit\npandas\nnumpy\nopencv-python\nmtcnn
